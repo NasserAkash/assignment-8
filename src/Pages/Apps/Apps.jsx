@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { GoDownload } from "react-icons/go";
 import { FaStar } from "react-icons/fa";
-import { Link } from "react-router-dom"; // ✅ correct import
+import { Link } from "react-router-dom";
 
 const Apps = () => {
   const [allFeatureApps, setAllFeatureApps] = useState([]);
@@ -49,7 +49,9 @@ const Apps = () => {
               <div className="card-body">
                 <h2 className="card-title flex justify-between items-center">
                   {app.title}
-                  {app.isNew && <div className="badge badge-secondary">NEW</div>}
+                  {app.isNew && (
+                    <div className="badge badge-secondary">NEW</div>
+                  )}
                 </h2>
                 <p className="text-sm text-gray-500">
                   {app.description || "No description available."}
@@ -66,6 +68,16 @@ const Apps = () => {
             </div>
           </Link>
         ))}
+      </div>
+      <div className="flex justify-center mt-10">
+        <Link
+          to="/AllApps"
+          className="btn border-none text-white bg-gradient-to-r from-[#632ee3] to-[#9f62f2] 
+               hover:from-[#9f62f2] hover:to-[#632ee3] transition-all duration-300 
+               transform hover:scale-105 px-8 py-3 rounded-lg shadow-lg"
+        >
+          Show All
+        </Link>
       </div>
     </div>
   );

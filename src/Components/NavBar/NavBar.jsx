@@ -32,7 +32,7 @@ const NavBar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/">Apps</Link>
+            <Link to="/AllApps">Apps</Link>
           </li>
           <li>
             <Link to="/">Installation</Link>
