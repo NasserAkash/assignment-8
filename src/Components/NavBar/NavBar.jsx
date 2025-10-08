@@ -12,9 +12,7 @@ const NavBar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
-            <li>
-              <a>Home</a>
-            </li>
+            <Link to="/">Home</Link>
             <li>
               <a>Apps</a>
             </li>
@@ -31,13 +29,13 @@ const NavBar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a>Apps</a>
+            <Link to="/">Apps</Link>
           </li>
           <li>
-            <a>Installation</a>
+            <Link to="/">Installation</Link>
           </li>
         </ul>
       </div>
@@ -49,7 +47,7 @@ const NavBar = () => {
           className="btn btn-outline btn-info"
         >
           <FaGithub />
-          Contribution 
+          Contribution
         </a>
       </div>
     </div>

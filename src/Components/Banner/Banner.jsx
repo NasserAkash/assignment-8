@@ -48,26 +48,32 @@ const Banner = () => {
         <img src={heroImg} alt="Hero" className="mx-auto" />
       </div>
 
-      <div className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-12">
-        <h1 className="text-5xl font-bold text-center">Trusted by Millions, Built for You</h1>
-        <div className="container flex py-5 justify-between mx-auto ">
-            <div className="text-center">
-                <h1>Total Downloads</h1>
-                <p className="text-[64px] font-extrabold">29.6M</p>
-                <p>21% more than last month</p>
-            </div>
-            <div className="text-center">
-                <h1>Total Reviews</h1>
-                <p className="text-[64px] font-extrabold">906K</p>
-                <p>46% more than last month</p>
-            </div>
-            <div className="text-center">
-                <h1>Active Apps</h1>
-                <p className="text-[64px] font-extrabold">132+</p>
-                <p>31 more will Launch</p>
-            </div>
-        </div>
-      </div>
+      <div className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-10 sm:py-12 text-white">
+  <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-8">
+    Trusted by Millions, Built for You
+  </h1>
+
+  <div className="container mx-auto flex flex-col sm:flex-row justify-around items-center gap-8 px-6 text-center">
+    <div>
+      <h2 className="text-lg sm:text-xl font-semibold mb-2">Total Downloads</h2>
+      <p className="text-5xl sm:text-6xl md:text-7xl font-extrabold">29.6M</p>
+      <p className="text-sm sm:text-base">21% more than last month</p>
+    </div>
+
+    <div>
+      <h2 className="text-lg sm:text-xl font-semibold mb-2">Total Reviews</h2>
+      <p className="text-5xl sm:text-6xl md:text-7xl font-extrabold">906K</p>
+      <p className="text-sm sm:text-base">46% more than last month</p>
+    </div>
+
+    <div>
+      <h2 className="text-lg sm:text-xl font-semibold mb-2">Active Apps</h2>
+      <p className="text-5xl sm:text-6xl md:text-7xl font-extrabold">132+</p>
+      <p className="text-sm sm:text-base">31 more will Launch</p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 };
