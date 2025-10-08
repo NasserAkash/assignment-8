@@ -1,16 +1,18 @@
 import React from "react";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStore } from "react-icons/fa";
+import heroImg from "../../assets/hero.png";
 
 const Banner = () => {
   return (
-    <div className="hero bg-base-200 ">
-      <div className="hero-content text-center">
+    <div className="hero min-h-screen flex flex-col justify-between">
+      <div className="hero-content text-center flex-grow flex flex-col justify-center">
         <div className="max-w-3xl px-4">
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             We Build <br />
             <span className="text-[#9F62F2]">Productive</span> Apps
           </h1>
+
           <p className="py-6 text-base sm:text-lg md:text-xl">
             At <span className="font-semibold text-[#9F62F2]">HERO.IO</span>, we
             craft innovative apps designed to make everyday life simpler,
@@ -18,12 +20,13 @@ const Banner = () => {
             Our goal is to turn your ideas into digital experiences that truly
             make an impact.
           </p>
+
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-4">
             <a
               href="https://play.google.com/store"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline btn-success  w-36 sm:w-40 md:w-44 flex items-center justify-center gap-2"
+              className="btn btn-outline btn-success w-36 sm:w-40 md:w-44 flex items-center justify-center gap-2"
             >
               <IoLogoGooglePlaystore className="text-lg sm:text-xl" />
               Google Play
@@ -33,12 +36,36 @@ const Banner = () => {
               href="https://www.apple.com/app-store/"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline  w-36 sm:w-40 md:w-44 flex items-center justify-center gap-2"
+              className="btn btn-outline w-36 sm:w-40 md:w-44 flex items-center justify-center gap-2"
             >
               <FaAppStore className="text-lg sm:text-xl" />
               App Store
             </a>
           </div>
+        </div>
+      </div>
+      <div className="mt-6">
+        <img src={heroImg} alt="Hero" className="mx-auto" />
+      </div>
+
+      <div className="w-full bg-gradient-to-r from-[#632EE3] to-[#9F62F2] py-12">
+        <h1 className="text-5xl font-bold text-center">Trusted by Millions, Built for You</h1>
+        <div className="container flex py-5 justify-between mx-auto ">
+            <div className="text-center">
+                <h1>Total Downloads</h1>
+                <p className="text-[64px] font-extrabold">29.6M</p>
+                <p>21% more than last month</p>
+            </div>
+            <div className="text-center">
+                <h1>Total Reviews</h1>
+                <p className="text-[64px] font-extrabold">906K</p>
+                <p>46% more than last month</p>
+            </div>
+            <div className="text-center">
+                <h1>Active Apps</h1>
+                <p className="text-[64px] font-extrabold">132+</p>
+                <p>31 more will Launch</p>
+            </div>
         </div>
       </div>
     </div>
