@@ -70,17 +70,14 @@ const InstallApps = () => {
           Total Installed Apps: {installedApps.length}
         </div>
         <div className="flex items-center gap-2">
-          <label className="font-semibold text-gray-700">
-            Sort by Downloads:
-          </label>
           <select
             className="bg-gray-600 border rounded px-2 py-1"
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
             <option value="">None</option>
-            <option value="high-low">High → Low</option>
-            <option value="low-high">Low → High</option>
+            <option value="high-low">Sort by: High → Low</option>
+            <option value="low-high">Sort by: Low → High</option>
           </select>
         </div>
       </div>
