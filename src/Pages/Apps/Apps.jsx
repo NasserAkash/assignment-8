@@ -8,7 +8,7 @@ const Apps = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("/FeatureApps.json")
+    fetch("FeatureApps.json")
       .then((res) => res.json())
       .then((data) => {
         setAllFeatureApps(data);

@@ -35,7 +35,7 @@ const NavBar = () => {
             <Link to="/AllApps">Apps</Link>
           </li>
           <li>
-            <Link to="/">Installation</Link>
+            <Link to="/InstallApps">Installation</Link>
           </li>
         </ul>
       </div>

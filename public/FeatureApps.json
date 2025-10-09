@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://picsum.photos/200/200?random=1",
+    "image": "https://i.ibb.co.com/d00xjpq9/demo-app-6.webp",
     "title": "TaskMaster",
     "companyName": "Productive Inc.",
     "description": "A smart task management app to boost your productivity.",
@@ -19,7 +19,7 @@
   },
   {
     "id": 2,
-    "image": "https://picsum.photos/200/200?random=2",
+    "image": "https://i.ibb.co.com/k22RLt6h/demo-app-5.webp",
     "title": "FitTrack",
     "companyName": "Healthify",
     "description": "Track your workouts and stay fit with ease.",
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "image": "https://picsum.photos/200/200?random=3",
+    "image": "https://i.ibb.co.com/nNddDgzX/demo-app-3.webp",
     "title": "PhotoSnap",
     "companyName": "SnapTech",
     "description": "Capture and edit photos like a pro.",
@@ -55,7 +55,7 @@
   },
   {
     "id": 4,
-    "image": "https://picsum.photos/200/200?random=4",
+    "image": "https://i.ibb.co.com/YBfmkqXJ/demo-app-4.webp",
     "title": "MindfulMe",
     "companyName": "ZenApps",
     "description": "Meditation and mindfulness for daily calm.",
@@ -73,7 +73,7 @@
   },
   {
     "id": 5,
-    "image": "https://picsum.photos/200/200?random=5",
+    "image": "https://i.ibb.co.com/rfmr2zm4/demo-app-2.webp",
     "title": "BudgetWise",
     "companyName": "Finance Guru",
     "description": "Manage your finances and save smarter.",
@@ -91,7 +91,7 @@
   },
   {
     "id": 6,
-    "image": "https://picsum.photos/200/200?random=6",
+    "image": "https://i.ibb.co.com/pryDQRDM/demo-app-1.webp",
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "description": "Accurate weather updates wherever you are.",
@@ -109,7 +109,7 @@
   },
   {
     "id": 7,
-    "image": "https://picsum.photos/200/200?random=7",
+    "image": "https://i.ibb.co.com/pryDQRDM/demo-app-1.webp",
     "title": "Foodie",
     "companyName": "TastyApps",
     "description": "Discover recipes and restaurants near you.",
@@ -127,7 +127,7 @@
   },
   {
     "id": 8,
-    "image": "https://picsum.photos/200/200?random=8",
+    "image": "https://i.ibb.co.com/YBfmkqXJ/demo-app-4.webp",
     "title": "LearnIt",
     "companyName": "EduTech",
     "description": "Learn new skills with interactive lessons.",
@@ -145,7 +145,7 @@
   },
   {
     "id": 9,
-    "image": "https://picsum.photos/200/200?random=9",
+    "image": "https://i.ibb.co.com/rfmr2zm4/demo-app-2.webp",
     "title": "TravelBuddy",
     "companyName": "Wanderlust Co.",
     "description": "Plan trips and track your adventures.",
@@ -163,7 +163,7 @@
   },
   {
     "id": 10,
-    "image": "https://picsum.photos/200/200?random=10",
+    "image": "https://i.ibb.co.com/d00xjpq9/demo-app-6.webp",
     "title": "ShopSmart",
     "companyName": "RetailTech",
     "description": "Online shopping made simple and fast.",
@@ -181,7 +181,7 @@
   },
   {
     "id": 11,
-    "image": "https://picsum.photos/200/200?random=11",
+    "image": "https://i.ibb.co.com/k22RLt6h/demo-app-5.webp",
     "title": "SleepWell",
     "companyName": "Healthify",
     "description": "Track your sleep and improve your rest.",
@@ -199,7 +199,7 @@
   },
   {
     "id": 12,
-    "image": "https://picsum.photos/200/200?random=12",
+    "image": "https://i.ibb.co.com/nNddDgzX/demo-app-3.webp",
     "title": "NoteMaster",
     "companyName": "Productive Inc.",
     "description": "Take notes, organize ideas, and stay productive.",

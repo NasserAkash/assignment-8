@@ -10,7 +10,7 @@ const AllApps = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    fetch("/FeatureApps.json")
+    fetch("FeatureApps.json")
       .then((res) => res.json())
       .then((data) => {
         setAllFeatureApps(data);
